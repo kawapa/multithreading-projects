@@ -10,7 +10,7 @@ Assignments from "Multithreading in C++" course from Coders School (https://code
 
 ## 1. Multithreaded `std::accumulate`
 
-[Source code](src/1-accumulate)
+[Source code](src/1-accumulate/main.cpp)<br>
 **Description**
 Write an multithreaded version of the STL algorithm `std::accumulate`. Other requirements:
 - [x] On empty - return init
@@ -26,7 +26,7 @@ Write an multithreaded version of the STL algorithm `std::accumulate`. Other req
 
 ## 2. Multithreaded `std::count_if`
 
-[Source code](src/2-count_if)
+[Source code](src/2-count_if/main.cpp)
 **Description**
 Write an multithreaded version of the STL algorithm `std::count_if`. Other requirements:
 - [x] Measure the duration of the application 
@@ -35,7 +35,7 @@ Write an multithreaded version of the STL algorithm `std::count_if`. Other requi
 
 ## 3. Dining philosophers
 
-[Source code](src/3-dining_philosophers)
+[Source code](src/3-dining_philosophers/main.cpp)
 **Description**
 Implement the wide-known problem of dining philosophers ([Wiki](https://en.wikipedia.org/wiki/Dining_philosophers_problem)) using threads and mutexs. Other requirements:
 - [x] Every philosopher is run by a separate thread
@@ -47,7 +47,7 @@ Implement the wide-known problem of dining philosophers ([Wiki](https://en.wikip
 
 ## 4. Ping-pong
 
-[Source code](src/4-ping_pong)
+[Source code](src/4-ping_pong/main.cpp)
 **Description**
 Implement the ping-pong game in the terminal. Requirements:
 - [x] One thread outputs `Ping` and a integer
@@ -58,7 +58,7 @@ Implement the ping-pong game in the terminal. Requirements:
 
 ## 5. Multithreaded `std::accumulate` using `std::assync`
 
-[Source code](src/5-accumulate_assync)
+[Source code](src/5-accumulate_assync/main.cpp)
 **Description**
 Implement the analogous application as explained in exercise 1 but use `std::assync`.
 
