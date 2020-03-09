@@ -11,7 +11,7 @@ Assignments from "Multithreading in C++" course from Coders School (https://code
 ## 1. Multithreaded `std::accumulate`
 
 [Source code](src/1-accumulate/main.cpp)<br>
-**Description**
+**Description**<br>
 Write an multithreaded version of the STL algorithm `std::accumulate`. Other requirements:
 - [x] On empty - return init
 - [x] Calculate number of threads using formula `hardware_threads = hardware_concurrency() 0 ? hardware_concurrency() : 2`
@@ -26,8 +26,8 @@ Write an multithreaded version of the STL algorithm `std::accumulate`. Other req
 
 ## 2. Multithreaded `std::count_if`
 
-[Source code](src/2-count_if/main.cpp)
-**Description**
+[Source code](src/2-count_if/main.cpp)<br>
+**Description**<br>
 Write an multithreaded version of the STL algorithm `std::count_if`. Other requirements:
 - [x] Measure the duration of the application 
 - [x] Write tests that confirms it gives the same results as STL `std::count_if`
@@ -35,8 +35,8 @@ Write an multithreaded version of the STL algorithm `std::count_if`. Other requi
 
 ## 3. Dining philosophers
 
-[Source code](src/3-dining_philosophers/main.cpp)
-**Description**
+[Source code](src/3-dining_philosophers/main.cpp)<br>
+**Description**<br>
 Implement the wide-known problem of dining philosophers ([Wiki](https://en.wikipedia.org/wiki/Dining_philosophers_problem)) using threads and mutexs. Other requirements:
 - [x] Every philosopher is run by a separate thread
 - [x] Every fork is protected by a separate mutex
@@ -47,8 +47,8 @@ Implement the wide-known problem of dining philosophers ([Wiki](https://en.wikip
 
 ## 4. Ping-pong
 
-[Source code](src/4-ping_pong/main.cpp)
-**Description**
+[Source code](src/4-ping_pong/main.cpp)<br>
+**Description**<br>
 Implement the ping-pong game in the terminal. Requirements:
 - [x] One thread outputs `Ping` and a integer
 - [x] The other thread outputs `Pong` and a integer
@@ -58,15 +58,15 @@ Implement the ping-pong game in the terminal. Requirements:
 
 ## 5. Multithreaded `std::accumulate` using `std::assync`
 
-[Source code](src/5-accumulate_assync/main.cpp)
-**Description**
+[Source code](src/5-accumulate_assync/main.cpp)<br>
+**Description**<br>
 Implement the analogous application as explained in exercise 1 but use `std::assync`.
 
 ## 6. OpenCV - image processing
 
-[Source code](https://github.com/kawapa/multithreading-projects) - Template Matching
-[Source code](https://github.com/kawapa/multithreading-projects) - Morph Line Detection
-**Description**
+[Source code](https://github.com/kawapa/multithreading-projects) - Template Matching<br>
+[Source code](https://github.com/kawapa/multithreading-projects) - Morph Line Detection<br>
+**Description**<br>
 Using the library OpenCV, implement the multithreaded versions of algorithms:
 - [ ] Template Matching
     * Every thread looks for different
