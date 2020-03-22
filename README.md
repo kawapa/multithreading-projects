@@ -43,7 +43,7 @@ Implement the wide-known problem of dining philosophers ([Wiki](https://en.wikip
 - [x] Visualize what is happening in the termial 
 - [x] Avoid deadlocks
 - [x] Play with the numbers of philosophers (and forks) and draw conclusions
-- [ ] Implement anti-starvation mechanism ([Wiki](https://en.wikipedia.org/wiki/Starvation_(computer_science)))
+- [x] Implement anti-starvation mechanism ([Wiki](https://en.wikipedia.org/wiki/Starvation_(computer_science)))
 
 ## 4. Ping-pong
 
@@ -60,18 +60,18 @@ Implement the ping-pong game in the terminal. Requirements:
 
 [Source code](src/5-accumulate_assync/main.cpp)<br>
 **Description**<br>
-Implement the analogous application as explained in exercise 1 but use `std::assync`.
+Implement the analogous application as explained in [exercise 1](#1-multithreaded-stdaccumulate) but use `std::assync`.
 
 ## 6. OpenCV - image processing
 
-[Source code](https://github.com/kawapa/multithreading-projects) - Template Matching<br>
-[Source code](https://github.com/kawapa/multithreading-projects) - Morph Line Detection<br>
+[Source code](src/6-opencv/1-template_matching/main.cpp) - Template Matching<br>
+[Source code](src/6-opencv/2-morph_-_line_-_detection/main.cpp) - Morph Line Detection<br>
 **Description**<br>
 Using the library OpenCV, implement the multithreaded versions of algorithms:
-- [ ] Template Matching
+- [x] [Template Matching](https://docs.opencv.org/master/de/da9/tutorial_template_matching.html)
     * Every thread looks for different
     * Display the area(s) of the greatest match
-- [ ] Morph Line Detection
+- [x] [Morph Line Detection](https://docs.opencv.org/master/dd/dd7/tutorial_morph_lines_detection.html)
     * Every thread looks for a line at different angle
     * Create appropriate masks
     * Display the lines on the original pictures (use different colours for different angles)
