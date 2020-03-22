@@ -65,7 +65,7 @@ Implement the analogous application as explained in [exercise 1](#1-multithreade
 ## 6. OpenCV - image processing
 
 [Source code](src/6-opencv/1-template_matching/main.cpp) - Template Matching<br>
-[Source code](src/6-opencv/2-morph_-_line_-_detection/main.cpp) - Morph Line Detection<br>
+[Source code](src/6-opencv/2-morph_line_detection/main.cpp) - Morph Line Detection<br>
 **Description**<br>
 Using the library OpenCV, implement the multithreaded versions of algorithms:
 - [x] [Template Matching](https://docs.opencv.org/master/de/da9/tutorial_template_matching.html)
